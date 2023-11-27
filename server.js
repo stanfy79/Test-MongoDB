@@ -9,7 +9,7 @@ const app = express();
 app.use(bodyparser.urlencoded({extended: true}));
 
 //connecting to mongoDB
-mongoose.connect("mongodb+srv://stanfy79:pro123456@cluster0.nnapghi.mongodb.net/Informations", { useNewUrlParser: true }, { useUnifiedTopology: true });
+mongoose.connect("mongodb+srv://username:password@cluster0.nnapghi.mongodb.net", { useNewUrlParser: true }, { useUnifiedTopology: true });
 
 // Create data Schema
 const regSchema = {
